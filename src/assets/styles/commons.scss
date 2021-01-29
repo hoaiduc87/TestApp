@@ -1,0 +1,37 @@
+@import 'assets/styles/variables.scss';
+
+.app-container {
+  min-height: 100vh;
+  background-color: $grey;
+}
+
+.default-btn {
+  padding: 8px 24px;
+  border: none;
+
+  &:focus {
+    outline: none;
+  }
+
+  &--danger {
+    color: white;
+    background-color: #d9534f;
+
+    &:hover {
+      background-color: #c9302c;
+    }
+  }
+
+  &--round {
+    border-radius: 20px;
+  }
+
+  &--primary {
+    color: white;
+    background-color: #337ab7;
+
+    &:hover {
+      background-color: #286090;
+    }
+  }
+}
