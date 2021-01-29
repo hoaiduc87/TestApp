@@ -1,0 +1,35 @@
+@import 'assets/styles/mixins.scss';
+
+.modal {
+  &--error {
+    text-align: center;
+    background-color: $white;
+
+    &__header {
+      padding: 16px;
+      font-size: 18px;
+      background-color: $red;
+      color: white;
+    }
+
+    &__body {
+      padding: 20px;
+    }
+  }
+}
+
+@include mobile {
+  .modal {
+    &--error {
+      &__header {
+        padding: 8px;
+        font-size: 14px;
+      }
+
+      &__body {
+        padding: 12px;
+        font-size: 12px;
+      }
+    }
+  }
+}

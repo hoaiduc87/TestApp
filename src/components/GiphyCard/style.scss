@@ -1,0 +1,161 @@
+@import 'assets/styles/mixins.scss';
+
+.giphy-item {
+  .giphy-card {
+    padding: 16px;
+    background-color: $white;
+    box-shadow: 0px 0px 2px 2px $grey-1;
+    border-radius: 4px;
+
+    &__image {
+      position: relative;
+      width: 100%;
+      padding-top: 100%;
+      cursor: pointer;
+
+      img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    &__footer {
+      margin-top: 8px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      &--right {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+    }
+
+    .analytics-attachment-icon {
+      margin-right: 4px;
+      width: 28px;
+      transform: rotateZ(135deg);
+    }
+
+    .analytics-item {
+      margin-right: 16px;
+      display: inline-flex;
+      align-items: center;
+      color: $grey-2;
+      font-weight: 700;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      img {
+        width: 18px;
+        margin-right: 4px;
+      }
+
+      span {
+        word-break: break-word;
+      }
+    }
+  }
+
+  .giphy-author {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+
+    &__image {
+      flex-shrink: 0;
+      width: 26px;
+      height: 30px;
+      border-radius: 50%;
+    }
+
+    &__name {
+      margin-left: 8px;
+      color: #4992BF;
+      font-size: 20px;
+      font-weight: 700;
+      word-break: break-word;
+    }
+  }
+
+  @include tablet {
+    .giphy-card {
+      padding: 12px;
+
+      &__footer {
+        margin-top: 6px;
+      }
+
+      .analytics-attachment-icon {
+        width: 20px;
+      }
+
+      .analytics-item {
+        margin-right: 10px;
+        font-size: 12px;
+
+        img {
+          width: 13px;
+        }
+      }
+    }
+
+    .giphy-author {
+      padding: 12px;
+
+      &__image {
+        width: 22px;
+        height: 26px;
+      }
+
+      &__name {
+        font-size: 16px;
+      }
+    }
+  }
+
+  @include mobile {
+    .giphy-card {
+      padding: 8px;
+
+      &__footer {
+        margin-top: 4px;
+      }
+
+      .analytics-attachment-icon {
+        width: 16px;
+      }
+
+      .analytics-item {
+        margin-right: 8px;
+        font-size: 10px;
+
+        img {
+          width: 10px;
+        }
+      }
+    }
+
+    .giphy-author {
+      padding: 8px;
+
+      &__image {
+        width: 18px;
+        height: 22px;
+      }
+
+      &__name {
+        font-size: 12px;
+      }
+    }
+  }
+}
