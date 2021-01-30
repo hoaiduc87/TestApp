@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GiphyCard/> Should run and match snapshot 1`] = `
+<div
+  class="giphy-item"
+>
+  <div
+    class="giphy-card"
+  >
+    <div
+      class="giphy-card__image"
+    >
+      <img
+        alt="thumb"
+        src="test"
+      />
+    </div>
+    <div
+      class="giphy-card__footer"
+    >
+      <div
+        class="giphy-card__footer--left"
+      >
+        <img
+          alt=""
+          class="analytics-attachment-icon"
+          src="attachment.svg"
+        />
+      </div>
+      <div
+        class="giphy-card__footer--right"
+      >
+        <span
+          class="analytics-item"
+        >
+          <img
+            alt=""
+            src="eye.svg"
+          />
+          <span>
+            100
+          </span>
+        </span>
+        <span
+          class="analytics-item"
+        >
+          <img
+            alt=""
+            src="chat_bubble.svg"
+          />
+          <span>
+            100
+          </span>
+        </span>
+        <span
+          class="analytics-item"
+        >
+          <img
+            alt=""
+            src="heart.svg"
+          />
+          <span>
+            100
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="giphy-author"
+  >
+    <img
+      alt="user"
+      class="giphy-author__image"
+      src=""
+    />
+    <strong
+      class="giphy-author__name"
+    >
+      test
+    </strong>
+  </div>
+</div>
+`;

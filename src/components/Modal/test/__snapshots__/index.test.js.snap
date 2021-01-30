@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Modal/> Should run and match snapshot 1`] = `
+<div
+  class="modal modal--hidden"
+>
+  <div
+    class="modal__dialog test"
+  >
+    <span
+      class="modal__dialog__close"
+    >
+      <img
+        alt="close"
+        src="close_white.svg"
+      />
+    </span>
+  </div>
+  <div
+    class="modal__backdrop"
+  />
+</div>
+`;
