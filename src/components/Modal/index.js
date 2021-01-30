@@ -12,7 +12,7 @@ function Modal({
   onClose,
 }) {
   const handleKeyDown = (e) => {
-    if (e.key === 'Escape') {
+    if (show && e.key === 'Escape') {
       onClose();
     }
   };
@@ -36,7 +36,7 @@ function Modal({
         <span className="modal__dialog__close" onClick={onClose}>
           <img src={CloseWhite} alt="close" />
         </span>
-        {children}
+        {children || null}
       </div>
       <div className="modal__backdrop" onClick={onClose} />
     </div>

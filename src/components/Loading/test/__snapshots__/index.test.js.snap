@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Loading/> Should run and match snapshot 1`] = `
+<div
+  class="loading  hidden"
+>
+  <img
+    alt="loading"
+    src="loading.gif"
+    width="100px"
+  />
+</div>
+`;

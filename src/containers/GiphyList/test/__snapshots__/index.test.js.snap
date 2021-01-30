@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GiphyList/> Should run and match snapshot 1`] = `
+<div
+  class="giphy-trending__container"
+>
+  <div
+    class="modal modal--hidden"
+  >
+    <div
+      class="modal__dialog modal--fullscreen"
+    >
+      <span
+        class="modal__dialog__close"
+      >
+        <img
+          alt="close"
+          src="close_white.svg"
+        />
+      </span>
+      <img
+        alt="fullscreen"
+        class="giphy-trending__modal__body"
+      />
+    </div>
+    <div
+      class="modal__backdrop"
+    />
+  </div>
+  <div
+    class="loading  hidden"
+  >
+    <img
+      alt="loading"
+      src="loading.gif"
+      width="100px"
+    />
+  </div>
+  <div
+    class="giphy-trending__list"
+  >
+    <div
+      class="giphy-item"
+    >
+      <div
+        class="giphy-card"
+      >
+        <div
+          class="giphy-card__image"
+        >
+          <img
+            alt="thumb"
+          />
+        </div>
+        <div
+          class="giphy-card__footer"
+        >
+          <div
+            class="giphy-card__footer--left"
+          >
+            <img
+              alt=""
+              class="analytics-attachment-icon"
+              src="attachment.svg"
+            />
+          </div>
+          <div
+            class="giphy-card__footer--right"
+          >
+            <span
+              class="analytics-item"
+            >
+              <img
+                alt=""
+                src="eye.svg"
+              />
+              <span>
+                0
+              </span>
+            </span>
+            <span
+              class="analytics-item"
+            >
+              <img
+                alt=""
+                src="chat_bubble.svg"
+              />
+              <span>
+                0
+              </span>
+            </span>
+            <span
+              class="analytics-item"
+            >
+              <img
+                alt=""
+                src="heart.svg"
+              />
+              <span>
+                0
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="giphy-trending__footer"
+  >
+    <div
+      class="loading loading--transparent hidden"
+    >
+      <img
+        alt="loading"
+        src="loading.gif"
+        width="60px"
+      />
+    </div>
+    <button
+      class="default-btn default-btn--primary default-btn--round"
+      type="button"
+    >
+      See more gifs
+    </button>
+  </div>
+</div>
+`;

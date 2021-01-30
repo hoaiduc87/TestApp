@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NotifyModal/> Should run and match snapshot 1`] = `
+<div
+  class="modal modal--visible"
+>
+  <div
+    class="modal__dialog modal--small modal--error"
+  >
+    <span
+      class="modal__dialog__close"
+    >
+      <img
+        alt="close"
+        src="close_white.svg"
+      />
+    </span>
+    <div
+      class="modal--error__header"
+    >
+      Error
+    </div>
+    <div
+      class="modal--error__body"
+    >
+      Error occur
+    </div>
+  </div>
+  <div
+    class="modal__backdrop"
+  />
+</div>
+`;
